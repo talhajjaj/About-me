@@ -2,3 +2,28 @@ img {
     max-width: 90%;
     height: 40;
   }
+h1 {
+    text-align: center;
+    width:200px;
+    background-color:pink;
+    margin-bottom:100px;
+    font-size: 40px
+
+    
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }    
+  p{
+    border: 4px double rgb(233, 148, 176);
+    border-color:plum;
+    border-width: thick;
+    box-sizing: border-box;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px
+  }
