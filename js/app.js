@@ -1,5 +1,13 @@
 'use strict';
 
+alert('welcome to our page')
+console.log("welcome to our page")
+
+let userName=prompt('enter your name')
+{
+ console.log('Hello' + userName);}
+ alert ('hello'+ userName)
+
 let love= prompt('do you love watching anime?')
 if (love='yes')
 {console.log('yay')}
@@ -62,4 +70,5 @@ switch ('drikstype') {
         console.log('wrong answer');
         break;
 }
+
 
