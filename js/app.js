@@ -10,18 +10,18 @@ let userName = prompt('enter your name')
 alert('hello' + userName)
 
 let love = prompt('do you love watching anime?')
-if (love = 'yes') { console.log('yay') }
-else if (love = "no") { console.log("why") }
+if (love = 'yes')
+alert('correct')
+
+else if (love = "no") 
+alert('wrong')
 
 let feel = prompt('are you happy today?')
-if (feel = "yes") {
-    console.log('cool')
+if (feel = "yes") 
+alert('cool')
 
-}
-
-else if (feel = "no") {
-    console.log('dont be')
-}
+else if (feel = "no") 
+alert('dont be')
 
 
 let answer = prompt('enter how many anime you have watched?');
@@ -129,18 +129,19 @@ for (let i = 0; i < 4; i++) {
 //     console.log('wrong');
 // }
 
-let rainbowcolor = ['Red', 'yellow', 'green', 'blue', 'purple', 'pink'];
+let rainbowcolor = ['red', 'yellow', 'green', 'blue', 'purple', 'pink'];
 let hint=false ;
-for(let attempt=1; attempt <=6;attempt++)
-let userAnswer = prompt('what is my rainbow fav color?');
+for(let attempt=1; attempt <=6;attempt++){
+   let userAnswer = prompt('what is my fav rainbow color?');
 for (let i = 0; i < 6; i++) {
     if (userAnswer === rainbowcolor[i]) {
         alert('yes it is right ');
-        flag = true;
+        hint= true;
         break;
     }
 }
-if (flag === true) {
+if (hint === true) {
     break;
 }
-alert('the right answer is Red, yellow, green,blue, purple, pink')
+}
+alert('the right answer is red, yellow, green,blue, purple, pink')
