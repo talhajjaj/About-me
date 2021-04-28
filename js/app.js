@@ -129,16 +129,18 @@ for (let i = 0; i < 4; i++) {
 //     console.log('wrong');
 // }
 
-let color = ['Red', 'yellow', 'green', 'blue', 'purple', 'pink'];
-let userAnswer = prompt('what is my fav color?');
-let flag = false;
+let rainbowcolor = ['Red', 'yellow', 'green', 'blue', 'purple', 'pink'];
+let hint=false ;
+for(let attempt=1; attempt <=6;attempt++)
+let userAnswer = prompt('what is my rainbow fav color?');
 for (let i = 0; i < 6; i++) {
-    if (userAnswer == color[i]) {
-        console.log('yes it is ');
+    if (userAnswer === rainbowcolor[i]) {
+        alert('yes it is right ');
         flag = true;
+        break;
     }
 }
-if (flag == false) {
-    console.log('no wrong');
+if (flag === true) {
+    break;
 }
-alert('the right answer is Red, yellow, green,blue, purple, pink)
+alert('the right answer is Red, yellow, green,blue, purple, pink')
