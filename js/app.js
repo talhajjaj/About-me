@@ -116,21 +116,21 @@ function devAge (){
             // console.log('too high');
         }
         else if (age = 22) {
-            alert('great job')
+            alert('great job');
             // console.log('great job')
             score++
             break;
         }
     
         else if (age < 22) {
-            alert('too low')
+            alert('too low');
             // console.log('too low')
         }
     
     }
 
 }
- devAge()
+ devAge();
  
 
 let favfruit = ['cherry', 'apple', 'strawberry', 'oranges'];{
@@ -153,6 +153,6 @@ for (let i = 0; i < favfruit.length; i++) {
 }
 }
 }
-alert('the right answer is cherry apple strawberry oranges') ;
+alert('the right answer is cherry, apple, strawberry, oranges') ;
 alert('your score is '+ score + ' of 7');
 alert('Thank you for your time ');
